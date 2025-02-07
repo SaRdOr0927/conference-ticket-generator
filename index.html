@@ -14,46 +14,52 @@
 <body>
 
   <div class="asosiy">
-    <div class="site-logo">
-      <h2 class="site-logo_text ">Coding Conf</h2>
-    </div>
-    <div class="site-open">
-      <h1 class="open-text1">Your Journey to Coding Conf 2025 Starts Here!</h1>
-      <p class="open-text2">Secure your spot at next year’s biggest coding conference.</p>
+    <div class="container asosiy">
+      <div class="site-logo">
+        <h2 class="site-logo_text ">Coding Conf</h2>
+      </div>
+      <div class="site-open">
+        <h1 class="open-text1">Your Journey to Coding Conf 2025 Starts Here!</h1>
+        <p class="open-text2">Secure your spot at next year’s biggest coding conference.</p>
+      </div>
     </div>
   </div>
   <div class="abount">
-    <div class="abount-img">
-      <h4 class="img-text">Upload Avatar</h4>
-      <div class="img-uplond">
-        <div class="uplond-abount">
-          <p class="uplond-abount_text">Drag and drop or click to upload</p>
+    <div class="container">
+      <div class="abount-img">
+        <h4 class="img-text">Upload Avatar</h4>
+        <div class="img-uplond">
+          <div class="uplond-abount">
+            <p class="uplond-abount_text">Drag and drop or click to upload</p>
+          </div>
         </div>
-      </div>
-      <div class="error">
-        <img src="./assets/images/icon-info.svg" alt="icon-info">
-        <p class="error-text">Upload your photo (JPG or PNG, max size: 500KB).</p>
+        <div class="error">
+          <img src="./assets/images/icon-info.svg" alt="icon-info">
+          <p class="error-text">Upload your photo (JPG or PNG, max size: 500KB).</p>
+        </div>
       </div>
     </div>
   </div>
-  <form id="ticketForm">
-    <fieldset class="fie">
-      <div class="Full-name">
-        <h4 class="img-text">Full Name</h4>
-        <input type="text" class="full-name-inputt" id="fullName">
-      </div>
-      <div class="Email">
-        <h4 class="img-text">Email Address</h4>
-        <input type="email" placeholder="example@email.com" class="full-name-input" id="email">
-      </div>
-      <div class="Email">
-        <h4 class="img-text">GitHub Username</h4>
-        <input type="text" placeholder="@yourusername" class="full-name-input" id="github">
-      </div>
-
-      <input type="submit" value="Generate My Ticket" class="btn-form" id="btnForm">
-    </fieldset>
-  </form>
+  <div class="container">
+    <form id="ticketForm">
+      <fieldset class="fie">
+        <div class="Full-name">
+          <h4 class="img-text">Full Name</h4>
+          <input type="text" class="full-name-inputt" id="fullName">
+        </div>
+        <div class="Email">
+          <h4 class="img-text">Email Address</h4>
+          <input type="email" placeholder="example@email.com" class="full-name-input" id="email">
+        </div>
+        <div class="Email">
+          <h4 class="img-text">GitHub Username</h4>
+          <input type="text" placeholder="@yourusername" class="full-name-input" id="github">
+        </div>
+      
+        <input type="submit" value="Generate My Ticket" class="btn-form" id="btnForm">
+      </fieldset>
+    </form>
+  </div>
   <script>
     document.getElementById("ticketForm").addEventListener("submit", function (event) {
       event.preventDefault(); // Formani default yuborilishini bloklaymiz
