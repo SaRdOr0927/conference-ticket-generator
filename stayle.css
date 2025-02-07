@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #040128;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.asosiy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-logo_text {
+    color: #FFF;
+    max-width: 163px;
+    width: 100%;
+    height: 30px;
+    font-family: Fira Code;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.49px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.site-open {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.open-text1 {
+    max-width: 891px;
+    width: 100%;
+    height: 132px;
+    font-family: Inconsolata;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 66px;
+    letter-spacing: -1px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFF;
+}
+.open-text2 {
+    max-width: 891px;
+    width: 100%;
+    height: 29px;
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #D1D0D5;
+    margin-top: 7px;
+}
+
+
+
+.abount {
+
+    gap: var(--spacing150);
+    margin-top: 30px;
+    display: flex;
+    
+}
+.img-text {
+    width: 460px;
+    height: 24px;
+    font-family: Inconsolata;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFF;
+    margin-bottom: 12px;
+}
+.uplond-abount {
+    width: 460px;
+    height:126px;
+    padding: var(--spacing150) var(--spacing200) var(--spacing150) var(--spacing200);
+    gap: var(--spacing200);
+    border-radius: var(--corner-radius12);
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    text-align: center;
+    border: 2px dashed #8784A5;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.abount-color {
+    border: 4px solid rgba(255, 100, 100, 0.8);
+}
+.uplond-abount_text {
+    padding-top: 75px;
+    font-family: Inconsolata;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #D1D0D5;
+    
+
+}
+
+.error {
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.error-text {
+    font-family: Inconsolata;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #D1D0D5; 
+    
+}
+
+.login {
+    margin-top: 10px;
+}
+.full-name-input {
+    width:  460px;
+    height: 54px;
+    padding: 0px var(--spacing200) 0px var(--spacing200);
+    gap: var(--spacing250);
+    border-radius: var(--corner-radius12);
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: none;
+    border: none;
+    border: 2px solid #8784A5;
+    border-radius: 10px;
+    margin-bottom: 17px;
+    color: #FFF;
+    padding-left: 15px;
+}
+.full-name-inputt {
+    width:  460px;
+    height: 54px;
+    padding: 0px var(--spacing200) 0px var(--spacing200);
+    gap: var(--spacing250);
+    border-radius: var(--corner-radius12);
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: none;
+    border: none;
+    border: 2px solid #8784A5;
+    border-radius: 10px;
+    margin-bottom: 17px;
+    color: #FFF;
+    padding-left: 15px;
+}
+
+.fie {
+    border: none !important;
+}
+
+.btn-form {
+    width: 460px;
+    height: 54px;
+    padding: var(--spacing200) var(--spacing300) var(--spacing200) var(--spacing300);
+    gap: 10px;
+    font-family: Inconsolata;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: -0.30000001192092896px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0D082D;
+    background-color: #F57463;
+    border-radius: 10px;
+    border: none ;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;  
+    margin-bottom: 70px;
+}
+.btn-form:hover{
+    border: 3px solid #a2a2a2;
+    
+}

@@ -1,0 +1,32 @@
+body {
+    background-color: #040128;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.gmail-link {
+    color: #F57463;
+}
+.site-openn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.open-text22 {
+    max-width: 440px;
+    width: 100%;
+    height: 87px;
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #D1D0D5;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./stayle.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="/dist/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="./media.css/media.css">
+  <title>Frontend Mentor | Character counter</title>
+</head>
+
+<body>
+
+  <div class="asosiy">
+    <div class="site-logo">
+      <h2 class="site-logo_text ">Coding Conf</h2>
+    </div>
+    <div class="site-open">
+      <h1 class="open-text1">Your Journey to Coding Conf 2025 Starts Here!</h1>
+      <p class="open-text2">Secure your spot at next year’s biggest coding conference.</p>
+    </div>
+  </div>
+  <div class="abount">
+    <div class="abount-img">
+      <h4 class="img-text">Upload Avatar</h4>
+      <div class="img-uplond">
+        <div class="uplond-abount">
+          <p class="uplond-abount_text">Drag and drop or click to upload</p>
+        </div>
+      </div>
+      <div class="error">
+        <img src="./assets/images/icon-info.svg" alt="icon-info">
+        <p class="error-text">Upload your photo (JPG or PNG, max size: 500KB).</p>
+      </div>
+    </div>
+  </div>
+  <form id="ticketForm">
+    <fieldset class="fie">
+      <div class="Full-name">
+        <h4 class="img-text">Full Name</h4>
+        <input type="text" class="full-name-inputt" id="fullName">
+      </div>
+      <div class="Email">
+        <h4 class="img-text">Email Address</h4>
+        <input type="email" placeholder="example@email.com" class="full-name-input" id="email">
+      </div>
+      <div class="Email">
+        <h4 class="img-text">GitHub Username</h4>
+        <input type="text" placeholder="@yourusername" class="full-name-input" id="github">
+      </div>
+
+      <input type="submit" value="Generate My Ticket" class="btn-form" id="btnForm">
+    </fieldset>
+  </form>
+  <script>
+    document.getElementById("ticketForm").addEventListener("submit", function (event) {
+      event.preventDefault(); // Formani default yuborilishini bloklaymiz
+
+      var fullName = document.getElementById("fullName").value.trim();
+      var email = document.getElementById("email").value.trim();
+
+      if (fullName === "" || email === "") {
+        alert("Iltimos, Full Name va Email Address maydonlarini to‘ldiring!");
+      } else {
+        setTimeout(function () {
+          window.location.href = "./card/card.html"; // Card sahifasiga yo‘naltirish
+        }, 500); // 0.5 soniya kechikish bilan ishlaydi
+      }
+    });
+  </script>
+
+ 
+
+
+
+
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
